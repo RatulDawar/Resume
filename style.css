@@ -1,0 +1,157 @@
+*{
+    margin:0px;
+}
+header{
+    background-image: url(media/macbook_mouse.jpg);
+    opacity: 0.8;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+head{
+    display: flex;
+}
+
+.h-list{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+.h-list li{
+    display: inline-block;
+    margin: 5px 15px;
+
+}
+.h-list li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+.white li a{
+    color: white;
+    padding: 5px;
+    border-radius: 7%;
+}
+.white li a:hover{
+    background-color: black;
+    opacity: 0.8;
+    z-index: 10;
+}
+
+.center{
+    text-align: center;
+}
+#Name h1{
+    color: white;
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+
+}
+#Name{
+    margin-top: 20vh;
+}
+#about img{
+    margin-top: -100px;
+    margin-left: 42% ;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-width: 100px;
+    border:solid;
+    border-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+}
+#about p{
+    width: 50%;
+    height:auto;
+    margin-left: 25%;
+    margin-top: 20px;
+    color: gray;
+}
+section{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 100%;
+    
+}
+#skills{
+    background-color: rgba(0, 0, 0, 0.10);
+    
+}
+#skills h2{
+    color: rgb(66, 58, 175);
+    font-family: sans-serif;
+    margin-top: 15px;
+    margin-left: 45%;
+}
+.skill-dis{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 40vh;
+    margin-top: 10px;
+    margin-left: -10%;
+}
+.skill-progress{
+    margin-left: 20%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 10rem;
+    height: 1.4rem;
+    padding: 2px;
+    background-color: lightgrey;
+    border-radius: 20px;
+}
+.mb-blue{
+    background-color: rgb(63, 63, 207);
+    border-radius: 20px;
+    
+}
+.skill-name{
+    padding-top: 2px;
+    padding-left: 5px;
+    color: white;
+    font-family: sans-serif;
+}
+.percent{
+    width: 50%;
+    height: inherit;
+}
+.percent1{
+    width: 60%;
+    height: inherit;
+}
+.mb-orange{
+    background-color: rgb(204, 109, 45);
+    border-radius: 20px;
+    
+}
+.percent2{
+    width: 40%;
+    height: inherit;
+}
+.mb-red{
+    background-color: rgb(228, 22, 22);
+    border-radius: 20px;
+}
+.percent3{
+    width: 30%;
+    height: inherit;
+}
+.mb-black{
+    background-color: black;
+    border-radius: 20px;
+}
+.percent4{
+    width: 20%;
+    height: inherit;
+}
+.mb-purple{
+    background-color: rgb(155, 21, 196);
+    border-radius: 20px;
+}
+
