@@ -97,17 +97,19 @@ section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     height: inherit;
     width: inherit;
     margin-top: 10px;
     margin-left: -10%;
 }
 .skill-progress{
-    margin-left: 20%;
+    margin-left: 10%;
     margin-top: 1%;
     flex-shrink: 1;
-    margin-bottom: 5%;
-    width: 10rem;
+    margin-bottom: 3%;
+    width: 7rem;
     height: 1.4rem;
     padding: 2px;
     background-color: lightgrey;
