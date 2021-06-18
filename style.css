@@ -1,5 +1,6 @@
 *{
     margin:0px;
+    font-family: sans-serif;
 }
 header{
     background-image: url(media/macbook_mouse.jpg);
@@ -54,9 +55,9 @@ head{
 }
 #about img{
     margin-top: -100px;
-    left: 42%;
-    height: 200px;
-    width: 200px;
+    margin-left:40vw;
+    height: 25%;
+    width: 20%;
     border-radius: 50%;
     border-width: 100px;
     border:solid;
@@ -92,6 +93,7 @@ section{
     font-family: sans-serif;
     margin-top: 15px;
     margin-left: 45%;
+    
 }
 .skill-dis{
     display: flex;
@@ -163,4 +165,194 @@ section{
     background-color: rgb(155, 21, 196);
     border-radius: 20px;
 }
+#education h2{
+    color: rgb(66, 58, 175);
+    font-family: sans-serif;
+    margin-top: 15px;
+    margin-left: 45%;
+}
+.timeline{
+    left: 12%;
+    position:relative;
+    width:75%;
+    
+}
+.timeline-box {
+    width : 40%;
+    margin: 5px;
+    height:150px;
+    margin-top: 1%;
+    text-align: right;
+    margin-left: 5%;
+    overflow: hidden;
+    
+    
+}
+/* .timeline-box::after{
+    content :'';
+    position:absolute;
+    right: 0%;
+    left: 49.1%;
+    border-radius: 50%;
+    width:0.5rem;
+    height: 0.5rem;
+    background-color: rgb(83, 79, 136);;
+} */
+
+
+.timeline-box:nth-child(2n){
+    margin-left: 53%;
+}
+.timeline-box #institue{
+    font-family: sans-serif;
+    color: rgb(66, 58, 175);
+    
+    
+    
+}
+#institue::before{
+    content: '';
+    display: inline-block;
+    background-image: url('media/sLogo.jpg');
+    height: 30px;
+    width:30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.timeline-box span{
+    color: rgb(224, 105, 61);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.timeline-box p{
+    color:gray;
+    opacity: 0.8;
+}
+.timeline-box:nth-child(2n){
+    text-align: left;
+}
+#institue1{
+    font-family: sans-serif;
+    color: rgb(66, 58, 175);
+    
+}
+#institue1::after{
+    content: '';
+    display: inline-block;
+    background-image: url('media/download.jfif');
+    height: 30px;
+    width:30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#institue2{
+    font-family: sans-serif;
+    color: rgb(66, 58, 175);
+}
+#institue2::before{
+    content: '';
+    display: inline-block;
+    background-image: url(media/Clogo.jfif);
+    height: 30px;
+    width:30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#timeline-divider{
+    margin-top: 5%;
+    position: absolute;
+    left:49%;
+    height:80%;
+    width: 0px;
+    border: 1.5px dashed rgb(83, 79, 136);
+}
+#timeline-travel{
+    color: rgb(83, 79, 136);
+    margin-left: -1px;
+    top:15%;
+    position: sticky;
+}
+#plane{
+    transform: rotate(90deg);
+}
+#contact{
+    width: 100%;
+    background-image: linear-gradient( to top right,blue,purple);
+    color: white;
+    padding-bottom: 20%;
+    
+}
+#contact h2{
+    color: white;
+    font-family: sans-serif;
+    margin-top: 15px;
+    margin-left: 45%;
+    padding-bottom: 30px ;
+    
+}
+#input{
+    margin-left: 5%;
+
+}
+#flexer{
+    display: flex;
+    justify-content: space-around;
+}
+input{
+    display: block;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 2px white solid;
+    color: white;
+    opacity: 1;
+    margin-left: 5%;
+    margin-bottom: 20%;
+    font-weight: bold;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+button{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    color: white;
+    border: 2px white solid;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 10%;
+}
+
+#touch{
+    width :30%;
+    text-align: left;
+    
+}#touch span{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#touch p{
+    margin-top: 7%;
+    margin-bottom: 13%;
+}
+#touch ul{
+    margin-top: 7%;
+    list-style-type: none;
+    /* margin: 0; */
+    padding: 0;
+}
+#touch li{
+    padding: 4px;
+}
+#socials{
+    margin-top: 7%;
+}
+
 
