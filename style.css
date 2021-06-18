@@ -262,7 +262,7 @@ section{
     margin-top: 5%;
     position: absolute;
     left:49%;
-    height:70%;
+    height:65%;
     width: 0px;
     border: 1.5px dashed rgb(83, 79, 136);
 }
@@ -292,6 +292,7 @@ section{
 }
 #input{
     margin-left: 5%;
+    flex-shrink: 1;
 
 }
 #flexer{
@@ -333,6 +334,7 @@ button{
 #touch{
     width :30%;
     text-align: left;
+    flex-shrink: 1;
     
 }#touch span{
     font-size: 1.5rem;
@@ -342,6 +344,7 @@ button{
 #touch p{
     margin-top: 7%;
     margin-bottom: 13%;
+    text-overflow: word-break;
 }
 #touch ul{
     margin-top: 7%;
@@ -351,6 +354,8 @@ button{
 }
 #touch li{
     padding: 4px;
+    text-overflow: word-break;
+
 }
 #socials{
     margin-top: 7%;
