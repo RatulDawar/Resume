@@ -262,7 +262,7 @@ section{
     margin-top: 5%;
     position: absolute;
     left:49%;
-    height:80%;
+    height:70%;
     width: 0px;
     border: 1.5px dashed rgb(83, 79, 136);
 }
@@ -297,10 +297,11 @@ section{
 #flexer{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 input{
     display: block;
-    width: 100%;
+    width: 70%;
     background-color:rgba(0, 0, 0, 0);
     border: none;
     border-bottom: 2px white solid;
